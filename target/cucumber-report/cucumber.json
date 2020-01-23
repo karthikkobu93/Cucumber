@@ -1,0 +1,177 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-01-23T03:08:46.754Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6484286482,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.lanch()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Flipkart test",
+        "description": "",
+        "id": "two-website;flipkart-test",
+        "after": [
+          {
+            "result": {
+              "duration": 734542561,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6213605231,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user launches chrome and enters flipkart application",
+            "match": {
+              "location": "StepDefinition.user_launches_chrome_and_enters_flipkart_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element \u003cbutton class\u003d\"vh79eN\" type\u003d\"submit\"\u003e...\u003c/button\u003e is not clickable at point (556, 28). Other element would receive the click: \u003cdiv class\u003d\"_1XBjg- row\"\u003e...\u003c/div\u003e\n  (Session info: chrome\u003d79.0.3945.130)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-CPSMOD0\u0027, ip: \u0027192.168.0.11\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_191\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\\Users\\Admin\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52250}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: d143881ce11496160e78b1a3e0e393d1\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\r\n\tat StepDefinition.StepDefinition.user_searches_product_in_the_search_field_and_click_on_search_to_find_the_result(StepDefinition.java:24)\r\n\tat ✽.user searches product in the search field and click on search to find the result(file:src/test/java/Advantage.feature:8)\r\n",
+              "duration": 652866097,
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "user searches product in the search field and click on search to find the result",
+            "match": {
+              "location": "StepDefinition.user_searches_product_in_the_search_field_and_click_on_search_to_find_the_result()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 61993,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "user finds the relavant result",
+            "match": {
+              "location": "StepDefinition.user_finds_the_relavant_result()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-01-23T03:09:00.976Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2207627653,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.lanch()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Amazon test",
+        "description": "",
+        "id": "two-website;amazon-test",
+        "after": [
+          {
+            "result": {
+              "duration": 1150006836,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9107352134,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user launches amazon application",
+            "match": {
+              "location": "StepDefinition.user_launches_amazon_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3407516888,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user searches phone in the search field and click",
+            "match": {
+              "location": "StepDefinition.user_searches_phone_in_the_search_field_and_click()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 200348,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user sees phone",
+            "match": {
+              "location": "StepDefinition.user_sees_phone()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag2"
+          }
+        ]
+      }
+    ],
+    "name": "Two website",
+    "description": "  I want to use this template for my feature file",
+    "id": "two-website",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Advantage.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
